@@ -147,7 +147,7 @@
      <x>0</x>
      <y>0</y>
      <width>1037</width>
-     <height>23</height>
+     <height>21</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">
@@ -238,6 +238,17 @@
   <action name="actionCopyright_and_License">
    <property name="text">
     <string>Copyright and License</string>
+   </property>
+  </action>
+  <action name="actionInflow_parameters">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="text">
+    <string>Inflow parameters</string>
+   </property>
+   <property name="visible">
+    <bool>false</bool>
    </property>
   </action>
  </widget>
